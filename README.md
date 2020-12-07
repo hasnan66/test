@@ -40,7 +40,7 @@ curl --location --request GET 'http://localhost:8082/account/statements' \
 --data-raw '{}'
 ```
 
-### Assignment Info
+### Assignment Info (Setup + guideline)
 
 - add ms access file path in properties.
 - add jar exist under src/main/java/resource/lib in project structure(import).

@@ -40,10 +40,13 @@ curl --location --request GET 'http://localhost:8082/account/statements' \
 --data-raw '{}'
 ```
 
-###Assignment Info
+### Assignment Info
 
+- add ms access file path in properties.
+- add jar exist under src/main/java/resource/lib in project structure(import).
+- input request is given in above curl.
 - MD5 is used for hashing account number.
--  Error codes are in response dto( if there is error there will be erro code inresponse and data will be empty).
+- Error codes are in response dto( if there is error there will be erro code in response and data will be empty).
 - as there are obnly 2 users so used hard coded.
 - access token is valid for 5 mintues, seeion will expire after 5 mintues. use refresh token to perform more action or run project again.
 - Oauth is used which gurrenties 1 login at time.
